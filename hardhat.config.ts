@@ -4,6 +4,7 @@ import "@nomicfoundation/hardhat-toolbox";
 import "hardhat-circom";
 // circuits
 import circuits = require('./circuits.config.json')
+// helps in creating env
 import 'dotenv/config';
 
 // set env var to the root of the project
