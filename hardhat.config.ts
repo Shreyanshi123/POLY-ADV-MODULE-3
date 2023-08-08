@@ -26,7 +26,7 @@ const config: HardhatUserConfig = {
   },
   networks: {
     mumbai: {
-      url: `https://rpc-mumbai.maticvigil.com`,
+      url: `https://rpc.ankr.com/polygon_mumbai`,
       accounts: [process.env.PRIVATE_KEY]
     }
   },
